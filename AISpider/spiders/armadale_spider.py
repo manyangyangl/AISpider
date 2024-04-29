@@ -10,8 +10,8 @@ class ArmadalcSpider(scrapy.Spider):
     custom_settings = {
         'LOG_STDOUT': True,
         # 'LOG_FILE': 'scrapy_armadalc.log',
-    }
-        # 测试测试
+    } 
+        # 测试测试 # 测试测试# 测试测试
     def __init__(self):
         self.headers = {
                     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
